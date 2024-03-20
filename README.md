@@ -1,6 +1,12 @@
 # range-proof-benches
 
-All range proof implementations and its benchmarks in Rust. 
+Various range proof implementations for 64 and 32 bit ranges and their benchmarks in Rust.
+At the moment the following protocols are covered:
+- D Boneh, B Fisch, A Gabizon, and Z Williamson. A simple range proof from polynomial commitments, 2020 [BFGW + KZG](https://hackmd.io/@dabo/B1U4kx8XI)
+- Groth16 w/ Poseidon hash function
+- Groth16 w/ Pedersen hash function
+- Bulletproofs
+- HashWires
 
 ```
 # implementation attributes to https://github.com/roynalnaruto/range_proof with minor updates to dependencies.
